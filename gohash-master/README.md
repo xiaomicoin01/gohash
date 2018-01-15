@@ -5,10 +5,10 @@ Specifications:
 --------------
 
 * PoW (proof of work) / PoS (proof of stake)
-* Algorithms: Skein
+* Algorithms: Script
 * Blocktime: 60 seconds
-* RPC port: 11446
-* P2P port: 11445
+* RPC port: 11111
+* P2P port: 11112
 * Blockreward (PoW):
 	101 - 500 Block - 1 GHC per Block
 	501 - 10 000 Block - 8 GHC per Block
