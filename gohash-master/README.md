@@ -10,25 +10,24 @@ Specifications:
 * RPC port: 11446
 * P2P port: 11445
 * Blockreward (PoW):
-  * Block 71 to 100 : 1 GHC
-  * 100 to 10,000 : 10 GHC
-  * 10,001 to 20,000: 8 GHC
-  * 20,001 to 30,000: 6 GHC
-  * 30,001 to 40,000: 4 GHC
-  * 40,001 to 50,000: 2 GHC
-  * Total PoW: 50,000 Blocks
-
+	101 - 500 Block - 1 GHC per Block
+	501 - 10 000 Block - 8 GHC per Block
+	10 001 - 30 000 Block - 7 GHC per Block
+	30 001 - 60 000 Block - 6 GHC per Block
+	60 001 - 80 000 Block - 5 GHC per Block
+	80 001 - 120 000 Block - 2 GHC per Block
+	After 240 001 - 8 GHC per Block
 * Blockreward (PoS):
-  * Block 101 to 10,000 : 10 GHC
-  * 10,001 to 20,000: 12 GHC
-  * 20,001 to 30,000: 13 GHC
-  * 30,001 to 40,000: 14 GHC
-  * 40,001 to 50,000: 15 GHC
-  * 50,001 to 100,000: 10 GHC
-  * After 100,001: 8 GHC  
+	501 - 10 000 Block - 8 GHC per Block
+	10 001 - 30 000 Block - 9 GHC per Block
+	30 001 - 60 000 Block - 10 GHC per Block
+	60 001 - 80 000 Block - 11 GHC per Block
+	80 001 - 120 000 Block - 12 GHC per Block
+	120 001- 240 000 Block – 10 GHC per Block
 
 * Masternode Collaterial - 5 000 GHC.
-* Masternodes Rewards - 75% of PoS Blocks.
+* Masternodes Rewards - 80% of PoS Blocks.
+* Masternodes Activation: since block 500.
 * Diff Retarget: 5 Blocks
 * Maturity: 30 Blocks
 * Stake Minimum Age: 24 Hours
@@ -67,7 +66,7 @@ Build
 ----------------------
 1.  Clone the source:
 
-        git clone https://github.com/gohashcrypto/gohash/
+        git clone https://github.com/xiaomicoin01/gohash.git/gohash-master/
 
 2.  Build gohash:
 
